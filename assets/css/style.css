@@ -1,0 +1,43 @@
+:root {
+    --light: #f6f6f6;
+    --darkblue: #2c3e50;
+    --lightblue: #3498db;
+    --red: #e74c3c;
+    --lightred: #f9eae7;
+    --lightyellow: #fff5d1;
+}
+
+/* Apply custom Google font */
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.header,
+.custom-card-header, 
+.btn-custom, .custom-modal-header {
+  background-color: var(--darkblue);
+  color: var(--light);
+}
+
+.btn-custom:hover {
+    color: var(--lightblue);
+  }
+
+.project-late {background-color: var(--lightred);
+}
+
+.table-custom th {background-color: var(--red);
+    color: var(--light);}
+    
+.project-today {background-color: var(--lightyellow);
+}
